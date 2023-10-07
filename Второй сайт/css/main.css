@@ -1,0 +1,49 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing: border-box;
+}
+body{
+	background-color: #000;
+	font-family: 'Fira Sans', sans-serif;
+}
+.main{
+	background-color: #000;
+	width: 95%;
+	display: flex;
+	margin: auto;
+    box-shadow: 0 0 30px 10p black;
+    flex-wrap: wrap;
+}
+.item{
+	height: 400px;
+	width: 700px;
+	background-color: blue;
+	margin: 10px;
+    background-position: center;
+    background-size: cover;
+    transition: 0.9s;
+}
+.heading{
+	font-size: 100px;
+	color: #fff;
+	width: 100%;
+	text-align: center;
+	margin:
+}
+.item:hover{
+	opacity: 0.75;
+	/*transform: rotate(720deg);*/
+	/*transform: scale(1.1);*/
+	transform:scale(1.3);
+	filter:contrast(130%);
+
+
+
+}
+
+
+
+
+
+
