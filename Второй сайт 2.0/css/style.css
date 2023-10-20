@@ -1,0 +1,30 @@
+.img-box{
+    column-count: 5;
+    width:90%;
+    margin:auto;
+    box-shadow: 0 0 20px 3px white;
+
+
+
+}
+.image{
+	max-width: 100%;
+	display: block;
+}
+body{
+
+background-color: skyblue;
+}
+.image+.image{
+	margin: 5px;
+}
+.head{
+	color:black;
+	font-size:70px;
+	text-align: center;
+	font-family: 'Nunito', sans-serif;
+}
+.image:hover{
+	filter:brightness(2.0);
+	filter:saturate(200%);
+}
